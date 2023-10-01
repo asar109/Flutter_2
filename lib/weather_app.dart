@@ -12,7 +12,7 @@ class WeatherAppHome extends StatefulWidget {
 class _WeatherAppHomeState extends State<WeatherAppHome> {
   @override
   String uri =
-      'https://api.openweathermap.org/data/2.5/weather?q=London&APPID=821650665b683d7f839394efe1005882';
+      'https://api.openweathermap.org/data/2.5/weather?q=London&APPID=KEY';
   void initState() {
     super.initState();
     getData();
